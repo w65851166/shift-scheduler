@@ -25,7 +25,6 @@ with st.sidebar:
     priority_emps = st.multiselect(
         "選擇享有優先權的員工 (4位)",
         options=all_employees,
-        default=["a1", "a7", "a11", "a14"]
     )
     st.info(f"目前優先人員：{', '.join(priority_emps)}")
 
